@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>freeCodeCamp | Survey form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="head">
+        <h1 class="head-title" id="title">Eternal Sage Survey Form</h1>
+        <p class="head-description" id="description">
+          Thank you for taking the time to help us improve the game
+        </p>
+      </div>
+      <form class="survey" id="survey-form">
+        <div class="survey-form">
+          <label class="survey-title" for="name" id="name-label">Name</label>
+          <input
+            class="survey-input"
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+        <div class="survey-form">
+          <label class="survey-title" for="email" id="email-label">Email</label>
+          <input
+            class="survey-input"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+        <div class="survey-form">
+          <label class="survey-title" for="number" id="number-label">Age</label>
+          <input
+            class="survey-input"
+            type="number"
+            name="age"
+            id="number"
+            min="8"
+            max="40"
+            placeholder="Age"
+            required
+          />
+        </div>
+        <div class="survey-form">
+          <label class="survey-title" for="describe" id="describe-label"
+            >Which option best describes the game?</label
+          >
+          <select class="survey-input" id="describe">
+            <option disabled selected value>Select your option</option>
+            <option value="saab">PVE</option>
+            <option value="opel">PVP</option>
+            <option value="audi">Visual</option>
+            <option value="audi">Characters</option>
+          </select>
+        </div>
+        <div class="survey-form">
+          <label class="survey-title" for="recommend"
+            >Would you recommend Eternal Sage to everyone?
+          </label>
+          <br />
+          <label>
+            <input type="radio" name="user-recommend" value="definitely" />
+            Definitely</label
+          ><br />
+          <label>
+            <input type="radio" name="user-recommend" value="maybe" />
+            Maybe</label
+          ><br />
+          <label>
+            <input type="radio" name="user-recommend" value="Not sure" />
+            Not sure</label
+          >
+        </div>
+        <div class="survey-form">
+          <label class="survey-title" for="improved"
+            >What would you like to see improved? (Check all that apply)
+          </label>
+          <br />
+          <input type="checkbox" id="PVE" name="pve" value="PVE" />
+          <label for="PVE">PVE</label><br />
+          <input type="checkbox" id="PVP" name="PVP" value="PVP" />
+          <label for="PVP">PVP</label><br />
+          <input
+            type="checkbox"
+            id="Characters"
+            name="Characters"
+            value="Characters"
+          />
+          <label for="Characters">Characters</label>
+        </div>
+        <div class="survey-form">
+          <label class="survey-title" for="suggestion"
+            >Any comments or suggestions?</label
+          >
+          <br />
+          <textarea
+            id="comments"
+            class="survey-textarea"
+            name="comment"
+            placeholder="Enter your comment here..."
+            spellcheck="false"
+            Not
+            sure
+          ></textarea>
+        </div>
+        <div class="survey-form">
+          <button type="submit" id="button" class="survey-button">
+            SUBMIT
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

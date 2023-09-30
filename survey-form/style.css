@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(./eternal-sage.jpeg) no-repeat center/cover;
+}
+.container {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 40rem;
+  margin: 5rem auto 5rem auto;
+
+  @media only screen and (max-width: 700px) {
+    max-width: 35rem;
+  }
+
+  @media only screen and (max-width: 600px) {
+    max-width: 30rem;
+  }
+
+  @media only screen and (max-width: 500px) {
+    max-width: 25rem;
+  }
+
+  @media only screen and (max-width: 400px) {
+    max-width: 20rem;
+  }
+}
+
+.head {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.head-title {
+  margin-bottom: 0.5rem;
+
+  @media only screen and (max-width: 500px) {
+    font-size: 1.5rem;
+  }
+}
+.head-description {
+  font-style: italic;
+}
+
+.survey {
+  background-color: rgba(72, 10, 108, 0.5);
+  padding: 1rem;
+}
+
+.survey-form {
+  margin-bottom: 1rem;
+  line-height: 2;
+}
+
+.survey-title {
+  font-weight: bold;
+}
+
+.survey-input {
+  width: 100%;
+  height: 2rem;
+  text-indent: 1rem;
+  border: none;
+}
+
+.survey-textarea {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: 10rem;
+  border: none;
+  padding: 1rem 0rem 0rem 0rem;
+  text-indent: 1rem;
+}
+
+.survey-button {
+  font-weight: bold;
+  width: 100%;
+  border: none;
+  padding: 1rem 0rem;
+  cursor: pointer;
+}

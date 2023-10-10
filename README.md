@@ -1,10 +1,12 @@
-# freecodecamp-responsive-web-design-certification
-freeCodeCamp - Responsive Web Design Certification
+# freeCodeCamp - Responsive Web Design Certification
 
-This is the platform where I learn first to code. I only used HTML and CSS here based on the requirements.
+This is the website where I learn first to code. I only used HTML and CSS here based on the projects requirements.
 
-Here are all the web links to my project:
+## Here are all the demo links to my projects:
 
 - https://freecodecamp-survey-form-gce.netlify.app/
 - https://tribute-page-gce.netlify.app/
 
+## Certificate link:
+
+- https://www.freecodecamp.org/certification/gerald_/responsive-web-design
